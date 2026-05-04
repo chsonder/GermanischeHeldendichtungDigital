@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+    #seite {
+        max-width: 1920px;
+    }
+
+    .article_one_column {
+        max-width: 900px;
+    }
+    .article_two_column {
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 25px;
+        justify-items: center;
+        align-items: start;
+    }
+    .article_two_column_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article_three_column {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 25px;
+        align-items: start;
+    }
+    .article_three_column_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .article_great_picture {
+        max-width: 900px;
+        height: 750px;
+    }
+    .card {
+        height: 348px;
+        width: 275px;
+    }
+    .card_legend {
+        margin-top: 138px;
+    }
+}
