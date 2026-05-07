@@ -26,9 +26,8 @@ require_once 'functions.php';
 
 <main id="main" tabindex="-1">
 <?php
-include_once "templates/home.php";
-#$seite = validatePage();
-#include_once $seite;
+$seite = validatePage();
+include_once $seite;
 ?>
 </main>
 

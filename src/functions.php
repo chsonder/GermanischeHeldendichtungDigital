@@ -48,7 +48,7 @@ function copyDir(string $source, string $destination): void
 
 function validatePage(): string
 {
-    $base = '/pages';
+    $base = 'data';
     $default = 'templates/home.php';
 
     if (!isset($_GET['page'])) {
@@ -70,4 +70,43 @@ function validatePage(): string
     }
 
     return $default;
+}
+
+function formatBiblId(string $id): string
+{
+    $id = str_replace('_', ' ', $id);
+
+    return mb_strtoupper(mb_substr($id, 0, 1, 'UTF-8'), 'UTF-8')
+        . mb_substr($id, 1, null, 'UTF-8');
+}
+
+function transformBibliographie(): void
+{
+    $xmlPath  = DATA . '/bibliographie.xml';
+    $xslPath  = SRC . '/xslt/bibliographie.xsl';
+    $output   = DIST . '/data/bibliographie.php';
+
+    $xml = new DOMDocument();
+    $xml->load($xmlPath);
+
+    $xsl = new DOMDocument();
+    $xsl->load($xslPath);
+
+    $processor = new XSLTProcessor();
+    $processor->registerPHPFunctions(['formatBiblId']);
+    $processor->importStylesheet($xsl);
+
+    $result = $processor->transformToXML($xml);
+
+    if ($result === false) {
+        throw new RuntimeException('XSLT-Transformation fehlgeschlagen');
+    }
+
+    $dir = dirname($output);
+
+    if (!is_dir($dir)) {
+        mkdir($dir, 0755, true);
+    }
+
+    file_put_contents($output, $result);
 }
