@@ -23,18 +23,85 @@
       <body>
          <listBibl>
             <head>Editionen</head>
-            <bibl xml:id="hausner_1977"> Hausner, Renate: Hinweis auf ein bisher nicht identifiziertes 
-               Heldenepik-Fragment der UB Salzburg. In: <ref target="#müller_1977">S. IV</ref>.</bibl>
-            <bibl xml:id="vorderstemann_1977">Vorderstemann, Jürgen: Die 30. Aventiure des 
+            <bibl xml:id="Brill_1935">Brill, Richard: Fragment einer unbekannten Dichtung aus dem Kreis 
+               der Heldensage. In: Zeitschrift für deutsches Altertum 72 (1935), S. 49–50.</bibl>
+            <bibl xml:id="Hausner_1977"> Hausner, Renate: Hinweis auf ein bisher nicht identifiziertes 
+               Heldenepik-Fragment der UB Salzburg. In: <ref target="#Müller_1977">S. IV</ref>.</bibl>
+            <bibl xml:id="Mackie_1934">The Exeter Book. Part II: Poems IX–XXXII. Edited by W. S. Mackie. 
+               London, New York, Toronto 1934 (= Early English Text Society, Original Series, No 194).</bibl>
+            <bibl xml:id="Thorpe_1842">Codex Exoniensis. A Collection of Anglo-Saxon Poetry, from a 
+               Manuscript in the Library of the Dean and Chapter of Exeter, with an English Translation, 
+               Notes and Indexes, by Benjamin Thorpe. London 1842.</bibl>
+            <bibl xml:id="Vorderstemann_1977">Vorderstemann, Jürgen: Die 30. Aventiure des 
                Nibelungenliedes in der Darmstädter Handschrift <hi rend="italic">n</hi> (Hs. 4257).
-               In: <ref target="#müller_1977">S. 11–19</ref>.</bibl>
+               In: <ref target="#Müller_1977">S. 11–19</ref>.</bibl>
          </listBibl>
          <listBibl>
-            <head>Sammelbände</head>
-            <bibl xml:id="müller_1977"> Litterae Ignotae. Beiträge zur Textgeschichte des deutschen
+            <head>Sekundärliteratur</head>
+            <bibl xml:id="Assmann_1992">Assmann, Jan: Das kulturelle Gedächtnis. München 1992.</bibl>
+            <bibl xml:id="Beck_1988">Beck, Heinrich (Hg.): Heldensage und Heldendichtung im Germanischen. 
+               Berlin, New York 1988 (= Ergänzungsbände zum Reallexikon der Germanischen Altertumskunde 2).</bibl>
+            <bibl xml:id="Benedikt_1954">Benedikt, Erich: Die Überlieferungen vom Ende Dietrichs von Bern. 
+               In: <ref target="#FS_Kralik_1954">S. 99–111</ref>.</bibl>
+            <bibl xml:id="Bezold_1926">Bezold, Friedrich von: Zur Geschichte der Dietrichsage. In: 
+               Historische Vierteljahrsschrift 23 (1926), S. 433–445.</bibl>
+            <bibl xml:id="Cometta_1994">Cometta, Marina: Tradizione e Letterarietà nella Legenda di Teodorico. In: 
+               ACME – Annali della Facoltà di Lettere e Filosofia dell’Università degli Studi di Milano 47/1 (1994), S. 61–103.</bibl>
+            <bibl xml:id="Ensslin_1959">Ensslin, Wilhelm: Theoderich der Große. 2. Auflage. München 1959.</bibl>
+            <bibl xml:id="Klein_Thurnher_1959">Klein, Karl Kurt/Turnher, Eugen (Hgg.): Germanistische Abhandlungen. 
+               Innsbruck 1959 (= Innsbrucker Beiträge zur Kulturwissenschaft 6).</bibl>
+            <bibl xml:id="FS_Kralik_1954">Festschrift für Dieter Kralik, dargebracht von Freunden, 
+               Kollegen und Schülern. Horn 1954.</bibl>
+            <bibl xml:id="Gillespie_1973">Gillespie, George T.: A catalogue of persons named in german heroic 
+               literatur (700–1600). Including named animals and objects and ethnic names. Oxford 1973.</bibl>
+            <bibl xml:id="Graus_1975">Graus, František: Lebendige Vergangenheit. Überlieferung im Mittelalter 
+               und in den Vorstellungen des Mittelalters. Köln, Wien 1975.</bibl>
+            <bibl xml:id="Grimm_1957">Grimm, Wilhelm: Die deutsche Heldensage. 4. Auflage. Darmstadt 1957.</bibl>
+            <bibl xml:id="Haug_1971">Haug, Walter: Die historische Dietrichsage. In: Zeitschrift für deutsches 
+               Altertum 100 (1971), S. 43–62.</bibl>
+            <bibl xml:id="Haug_1975">Haug, Walter: Andreas Heuslers Heldensagenmodell: Prämissen, Kritik und 
+               Gegenentwurf. In. Zeitschrift für deutsches Alterum 104 (1975), S. 273–292.</bibl>
+            <bibl xml:id="Heinzel_1889">Heinzel, Richard: Über die ostgothische Heldensage. In: 
+               Philosophisch-historische Classe 119, 3. Abhandlung. Wien 1889, S. 1–98.</bibl>
+            <bibl xml:id="Heinzle_1988">Heinzle, Joachim: Rez. zu <ref target="#Wisniewski_1986"/>. In: Anzeiger für 
+               deutsches Altertum 99 (1988), S. 82–87.</bibl>
+            <bibl xml:id="Heinzle_1999">Heinzle, Joachim: Einführung in die mittelhochdeutsche Dietrichepik. Berlin, 
+               New York 1999 (= de Gruyter Studienbuch).</bibl>
+            <bibl xml:id="Lienert_2015">Lienert, Elisabeth: Mittelhochdeutsche Heldenepik. Eine Einführung. 
+               Berlin 2015 (= Grundlagen der Germanistik 58).</bibl>
+            <bibl xml:id="Marold_1988">Marold, Edith: Wandel und Konstanz in der Darstellung der Figur des Dietrich 
+               von Bern. In: <ref target="#Beck_1988">S. 149–182</ref>.</bibl>
+            <bibl xml:id="Masser_1984">Masser, Achim: Von Theoderich dem Großen zu Dietrich von Bern. 
+               In: Der Schlern 58 (1984), S. 635–645.</bibl>
+            <bibl xml:id="McLintock_1987">McLintock, David: Dietrich und Theoderich – Sage und Geschichte. 
+               In: <ref target="#McLintock_Stevens_Wagner_1987">S. 99–106</ref>.</bibl>
+            <bibl xml:id="McLintock_Stevens_Wagner_1987">McLintock, David/Stevens, Adrian/Wagner, Fred (Hgg.): 
+               Geistliche und weltliche Epik des Mittelalters in Österreich. Göppingen 1987 
+               (= Göppinger Arbeiten zur Germanistik 446).</bibl>
+            <bibl xml:id="Millet_2008">Millet, Victor: Germanische Heldendichtung im Mittelalter. Eine Einführung. 
+               Berlin, New York 2008 (= de Gruyter Studienbuch).</bibl>
+            <bibl xml:id="Mohr_1944">Mohr, Wolfgang: Dietrich von Bern. In: Zeitschrift für deutsches 
+               Altertum 80 (1944), S. 117–155.</bibl>
+            <bibl xml:id="Moorhead_1992">Moorhead, John: Theoderic in Italy. Oxford 1992.</bibl>
+            <bibl xml:id="Müller_1977"> Litterae Ignotae. Beiträge zur Textgeschichte des deutschen
                Mittelalters: Neufunde und Neuinterpretationen. Im Auftrag des Herausgeber-Gremiums
                gesammelt von Ulrich Müller. Göppingen 1977 (= Litterae. Göppinger Beiträge zur
                Textgeschichte Nr. 50).</bibl>
+            <bibl xml:id="Plötzeneder_1955">Plötzeneder, Gisela: Die Gestalt Dietrichs von Bern in der deutschen 
+               Dichtung und Sage des frühen und hohen Mittelalters. Innsbruck 1955.</bibl>
+            <bibl xml:id="Plötzender_1959">Plötzeneder, Gisela: Die Teufelssage von Dietrich von Bern. 
+               In: <ref target="#Klein_Thurnher_1959">S. 33–40</ref>.</bibl>
+            <bibl xml:id="Pütz_1969">Pütz, Horst Peter: Studien zur Dietrichsage. Mythisierung und Dämonisierung 
+               Theoderichs des Großen. Wien 1969.</bibl>
+            <bibl xml:id="Schneider_1962">Schneider, Hermann: Germanische Heldensage. I/1. 2. Auflage. Berlin 1962 
+               (= Grundriß der gemanischen Philologie 10/I).</bibl>
+            <bibl xml:id="Wisniewski_1986">Wisniewski, Roswitha: Mittelalterliche Dietrichdichtung. Stuttgart 1986 
+               (= Sammlung Metzler 205). [Rez. <ref target="#Heinzle_1988"/>]</bibl>
+            <bibl xml:id="Wisniewski_1992">Wisnieski, Roswitha: Die Anfänge der Dietrichsage im Donauraum. In: 
+               <ref target="#Zatloukal_1992">S. 125–151</ref>.</bibl>
+            <bibl xml:id="Wolfram_1990">Wolfram, Herwig: Die Goten. 3. Auflage. München 1990.</bibl>
+            <bibl xml:id="Zatloukal_1992">Zatloukal, Klaus (Hg.): 2. Pöchlarner Heldenliedgespräch. Die historische 
+               Dietrichepik. Wien 1992 (= Philologica Germanica 13).</bibl>
          </listBibl>
       </body>
    </text>
