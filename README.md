@@ -11,19 +11,18 @@ Folgende Module sind in Planung bzw. angedacht:
 
 1. Einführung in die germanische Heldendichtung
 2. Stoffe
-3. Werke
-4. Testimonien
-5. Überlieferung
-6. Edition der überlieferten Texte
+3. Werke & Testimonien
+4. Überlieferung
+5. Edition der überlieferten Texte
    1. Faksimiles
    2. Transkriptionen
    3. Kritische Texte
    4. Übersetzungen
    5. Kommentare
-7. Wörterbuch der Originalsprachen
-8. Figuren-, Völker- und Ortslexikon
-9. Lexikon der Fachausdrücke
-10. Bibliographie
+6. Wörterbuch
+7. Figuren-, Völker- und Ortslexikon
+8. Lexikon der Fachausdrücke
+9. Bibliographie
 
 
 ## Roadmap
