@@ -10,6 +10,12 @@
             </ul>
         </div>
     </div>
+    <div title="Werke" class="navigation_spalte">
+        <div class="navigation_ebene_1">
+            <h1><a class="sonstiger_link" href="../index.php?page=werke">Werke</a></h1>
+            <hr class="linie start_color"/>
+        </div>
+    </div>
     <div title="Bibliographie" class="navigation_spalte">
         <div class="navigation_ebene_1">
             <h1><a class="sonstiger_link" href="../index.php?page=bibliographie">Bibliographie</a></h1>

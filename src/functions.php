@@ -110,3 +110,34 @@ function transformBibliographie(): void
 
     file_put_contents($output, $result);
 }
+
+function transformWerke(): void
+{
+    $xmlPath  = DATA . '/werke.xml';
+    $xslPath  = SRC . '/xslt/werke.xsl';
+    $output   = DIST . '/data/werke.php';
+
+    $xml = new DOMDocument();
+    $xml->load($xmlPath);
+
+    $xsl = new DOMDocument();
+    $xsl->load($xslPath);
+
+    $processor = new XSLTProcessor();
+    #$processor->registerPHPFunctions(['formatBiblId']);
+    $processor->importStylesheet($xsl);
+
+    $result = $processor->transformToXML($xml);
+
+    if ($result === false) {
+        throw new RuntimeException('XSLT-Transformation fehlgeschlagen');
+    }
+
+    $dir = dirname($output);
+
+    if (!is_dir($dir)) {
+        mkdir($dir, 0755, true);
+    }
+
+    file_put_contents($output, $result);
+}

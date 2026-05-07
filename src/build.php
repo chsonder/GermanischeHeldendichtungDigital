@@ -11,3 +11,4 @@ copy(SRC . '/functions.php', DIST . '/functions.php');
 copy(SRC . '/index.php', DIST . '/index.php');
 
 transformBibliographie();
+transformWerke();

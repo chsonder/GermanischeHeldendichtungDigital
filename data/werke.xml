@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Werke</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Trilog-Verlag für Kunst, Literatur und Wissenschaft</publisher>
+                <pubPlace>Wuppertal</pubPlace>
+                <date>2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Althochdeutsch</head>
+                <item xml:id="H">Hildebrandslied</item>
+            </list>
+            <list>
+                <head>Mittelhochdeutsch</head>
+                <item xml:id="AT">Alpharts Tod</item>
+                <item xml:id="BuD">Biterolf und Dietleib</item>
+                <item xml:id="DuF">Dietrich und Fasold</item>
+                <item xml:id="DuW">Dietrich und Wenezlan</item>
+                <item xml:id="DF">Dietrichs Flucht</item>
+                <item xml:id="E">Eckenlied</item>
+                <item xml:id="G">Goldemar (von Albrecht von Kemenaten)</item>
+                <item xml:id="K">Kudrun</item>
+                <item xml:id="L">Laurin</item>
+                <item xml:id="NK">Nibelungenklage</item>
+                <item xml:id="NL">Nibelungenlied</item>
+                <item xml:id="O">Ortnit</item>
+                <item xml:id="Ra">Rabenschlacht</item>
+                <item xml:id="Ro">Rosengarten zu Worms</item>
+                <item xml:id="Sa">Salzburger Heldenepos-Fragment</item>
+                <item xml:id="Si">Sigenot</item>
+                <item xml:id="V">Virginal</item>
+                <item xml:id="WuH">Walther und Hildegund</item>
+                <item xml:id="Wo">Wolfdietrich</item>
+                <item xml:id="Wu">Wunderer</item>
+            </list>
+            <list>
+                <head>Frühneuhochdeutsch</head>
+                <item xml:id="HP">Heldenbuchprosa</item>
+                <item xml:id="JH">Jüngeres Hildebrandslied</item>
+                <item xml:id="HS">Lied vom Hürnen Seyfried</item>
+            </list>
+            <list>
+                <head>Mittelniederdeutsch</head>
+                <item xml:id="ED">Ermenrikes dot</item>
+            </list>
+            <list>
+                <head>Altenglisch (Angelsächsisch)</head>
+                <item xml:id="B">Beowulf</item>
+                <item xml:id="F">Finnsburg</item>
+                <item xml:id="W">Waldere</item>
+            </list>
+            <list>
+                <head>Altnordisch</head>
+                <item xml:id="DB">Dänische Balladen</item>
+                <item xml:id="LE">Lieder-Edda</item>
+                <item xml:id="TS">Thidreks-Saga</item>
+                <item xml:id="VS">Völsungen-Saga</item>
+            </list>
+            <list>
+                <head>Mittellatein</head>
+                <item xml:id="Wa">Waltharius</item>
+            </list>
+        </body>
+    </text>
+</TEI>
