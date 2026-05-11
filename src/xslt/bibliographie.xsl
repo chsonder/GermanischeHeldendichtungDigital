@@ -3,7 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:php="http://php.net/xsl"
-                exclude-result-prefixes="tei">
+                exclude-result-prefixes="tei php">
 
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
