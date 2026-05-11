@@ -48,28 +48,21 @@ function copyDir(string $source, string $destination): void
 
 function validatePage(): string
 {
-    $base = 'data';
     $default = 'templates/home.php';
+    $whitelist = require_once __DIR__ . '/whitelist.php';
 
-    if (!isset($_GET['page'])) {
+    $page = strtolower($_GET['page']) ?? null;
+
+    if (
+        $page === null
+        || !preg_match('/^[a-z0-9\-]+$/', $page)
+        || !array_key_exists($page, $whitelist)
+        || !is_file($whitelist[$page])
+    ) {
         return $default;
     }
 
-    $page = $_GET['page'];
-
-    // harte Validierung: nur erlaubte Zeichen
-    if (!preg_match('/^[a-z0-9\-]+$/', $page)) {
-        return $default;
-    }
-
-    $file = $base . '/' . $page . '.php';
-
-    // nur Existenz prüfen, kein realpath
-    if (is_file($file)) {
-        return $file;
-    }
-
-    return $default;
+    return $whitelist[$page];
 }
 
 function formatBiblId(string $id): string
@@ -80,12 +73,11 @@ function formatBiblId(string $id): string
         . mb_substr($id, 1, null, 'UTF-8');
 }
 
-function transformBibliographie(): void
-{
-    $xmlPath  = DATA . '/bibliographie.xml';
-    $xslPath  = SRC . '/xslt/bibliographie.xsl';
-    $output   = DIST . '/data/bibliographie.php';
-
+function transformXmlToPhp(
+    string $xmlPath,
+    string $xslPath,
+    string $outputPath
+): void {
     $xml = new DOMDocument();
     $xml->load($xmlPath);
 
@@ -93,51 +85,25 @@ function transformBibliographie(): void
     $xsl->load($xslPath);
 
     $processor = new XSLTProcessor();
-    $processor->registerPHPFunctions(['formatBiblId']);
+    $processor->registerPHPFunctions();
     $processor->importStylesheet($xsl);
 
     $result = $processor->transformToXML($xml);
 
     if ($result === false) {
-        throw new RuntimeException('XSLT-Transformation fehlgeschlagen');
+        throw new RuntimeException(
+            sprintf(
+                'XSLT-Transformation fehlgeschlagen: %s',
+                $xmlPath
+            )
+        );
     }
 
-    $dir = dirname($output);
+    $dir = dirname($outputPath);
 
     if (!is_dir($dir)) {
         mkdir($dir, 0755, true);
     }
 
-    file_put_contents($output, $result);
-}
-
-function transformWerke(): void
-{
-    $xmlPath  = DATA . '/werke.xml';
-    $xslPath  = SRC . '/xslt/werke.xsl';
-    $output   = DIST . '/data/werke.php';
-
-    $xml = new DOMDocument();
-    $xml->load($xmlPath);
-
-    $xsl = new DOMDocument();
-    $xsl->load($xslPath);
-
-    $processor = new XSLTProcessor();
-    #$processor->registerPHPFunctions(['formatBiblId']);
-    $processor->importStylesheet($xsl);
-
-    $result = $processor->transformToXML($xml);
-
-    if ($result === false) {
-        throw new RuntimeException('XSLT-Transformation fehlgeschlagen');
-    }
-
-    $dir = dirname($output);
-
-    if (!is_dir($dir)) {
-        mkdir($dir, 0755, true);
-    }
-
-    file_put_contents($output, $result);
+    file_put_contents($outputPath, $result);
 }
