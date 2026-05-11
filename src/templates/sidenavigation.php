@@ -3,6 +3,7 @@
         <li><a class="sonstiger_link" href="#kopf">↑&nbsp;nach&nbsp;oben</a></li>
         <li><a class="sonstiger_link" href="../index.php?page=templates/home">Startseite</a></li>
         <li><a class="sonstiger_link" href="../index.php?page=werke">Werke</a></li>
+        <li><a class="sonstiger_link" href="../index.php?page=quellen">Quellen</a></li>
         <li><a class="sonstiger_link" href="../index.php?page=bibliographie">Bibliographie</a></li>
         <li><a class="sonstiger_link" href="#footer">↓&nbsp;nach&nbsp;unten</a></li>
     </ul>

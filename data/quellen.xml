@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Trilog-Verlag für Kunst, Literatur und Wissenschaft</publisher>
+                <pubPlace>Wuppertal</pubPlace>
+                <date>2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Handschriften</head>
+                <item>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Kassel</settlement>
+                            <repository ref="https://www.uni-kassel.de/ub/">Universitätsbibliothek, 
+                                Landesbibliothek und Murhardsche Bibliothek</repository>
+                            <idno>2° Ms. theol. 54</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus>fol. 1r; fol 79v</locus>
+                                <title>Hildebrandslied</title>
+                            </msItem>
+                        </msContents>
+                        <additional>
+                            <p><ref target="https://orka.bibliothek.uni-kassel.de/viewer/image/1296741113093">Digitalisat</ref></p>
+                        </additional>
+                    </msDesc>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>
