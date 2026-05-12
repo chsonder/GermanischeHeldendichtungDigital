@@ -23,7 +23,7 @@
         <body>
             <list>
                 <head>Handschriften</head>
-                <item>
+                <item xml:id="hs1">
                     <msDesc>
                         <msIdentifier>
                             <settlement>Kassel</settlement>

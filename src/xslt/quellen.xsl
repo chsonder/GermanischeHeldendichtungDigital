@@ -23,9 +23,9 @@
 
             <xsl:apply-templates select="tei:head"/>
 
-            <ol>
+            <ul>
                 <xsl:apply-templates select="tei:item"/>
-            </ol>
+            </ul>
 
         </article>
     </xsl:template>
@@ -39,7 +39,7 @@
     </xsl:template>
 
     <xsl:template match="tei:item">
-        <li>
+        <li id="{@xml:id}">
             <xsl:apply-templates/>
         </li>
     </xsl:template>
