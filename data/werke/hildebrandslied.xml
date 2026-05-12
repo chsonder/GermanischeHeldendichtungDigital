@@ -21,7 +21,21 @@
     </teiHeader>
     <text>
         <body>
-            <p>ToDo</p>
+            <div>
+                <head>Überlieferung</head>
+                <listWit>
+                    <witness xml:id="hs1" n="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Kassel</settlement>
+                                <repository ref="https://www.uni-kassel.de/ub/">Universitätsbibliothek, 
+                                    Landesbibliothek und Murhardsche Bibliothek</repository>
+                                <idno>2° Ms. theol. 54</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </div>
         </body>
     </text>
 </TEI>
