@@ -23,7 +23,9 @@ transformXmlToPhp(
     DATA . '/bibliographie.xml',
     SRC . '/xslt/bibliographie.xsl',
     DIST . '/data/bibliographie.php');
-transformXmlToPhp(
-    DATA . '/werke/hildebrandslied.xml',
+
+transformDirectory(
+    DATA . '/werke',
     SRC . '/xslt/werk.xsl',
-    DIST . '/data/werke/hildebrandslied.php');
+    DIST . '/data/werke'
+);

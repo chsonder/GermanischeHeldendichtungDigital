@@ -107,3 +107,22 @@ function transformXmlToPhp(
 
     file_put_contents($outputPath, $result);
 }
+
+function transformDirectory(
+    string $sourceDir,
+    string $xslPath,
+    string $targetDir
+): void {
+    foreach (glob($sourceDir . '/*.xml') as $xmlPath) {
+
+        $filename = pathinfo($xmlPath, PATHINFO_FILENAME);
+
+        $outputPath = $targetDir . '/' . $filename . '.php';
+
+        transformXmlToPhp(
+            $xmlPath,
+            $xslPath,
+            $outputPath
+        );
+    }
+}
