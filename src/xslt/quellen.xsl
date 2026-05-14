@@ -75,7 +75,7 @@
     </xsl:template>
 
     <xsl:template match="tei:msItem/tei:title">
-        <a href="../index.php?page={.}"><xsl:apply-templates/></a>
+        <a href="../index.php?page={@n}"><xsl:apply-templates/></a>
     </xsl:template>
 
     <xsl:template match="tei:additional">

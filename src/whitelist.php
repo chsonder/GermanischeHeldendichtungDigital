@@ -9,5 +9,6 @@ return [
     'werke' => 'data/werke.php',
 
     # Works
-    'h' => 'data/werke/hildebrandslied.php'
+    'h' => 'data/werke/hildebrandslied.php',
+    'sa' => 'data/werke/salzburgerheldeneposfragment.php'
 ];

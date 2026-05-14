@@ -34,11 +34,29 @@
                         <msContents>
                             <msItem>
                                 <locus>fol. 1r; fol 79v</locus>
-                                <title>Hildebrandslied</title>
+                                <title n="H">Hildebrandslied</title>
                             </msItem>
                         </msContents>
                         <additional>
                             <p><ref target="https://orka.bibliothek.uni-kassel.de/viewer/image/1296741113093">Digitalisat</ref></p>
+                        </additional>
+                    </msDesc>
+                </item>
+                <item xml:id="hs2">
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Salzburg</settlement>
+                            <repository ref="https://www.plus.ac.at/universitaetsbibliothek/">Universitätsbibliothek</repository>
+                            <idno>M II 297</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus>fol. 1r–4v</locus>
+                                <title n="SA">Salzburger Heldenepos-Fragment</title>
+                            </msItem>
+                        </msContents>
+                        <additional>
+                            <p><ref target="https://www.ubs.sbg.ac.at/sosa/fragmente/M_II_297.htm">Digitalisat</ref></p>
                         </additional>
                     </msDesc>
                 </item>
